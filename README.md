@@ -52,14 +52,14 @@ Boom! 🎉 Jenkins is now running on `http://localhost:8080`. But wait—we need
 
 ---
 
-## 🔑 Step 3: Unlocking Jenkins (The Secret Sauce!)
+## 🔑 Step 3: Unlocking Jenkins
 
 Jenkins requires an **initial admin password** to get started. Here’s how to find it:
 
 1️⃣ **Jump into the Jenkins container:**
 
 ```sh
-$ docker exec -it $(docker ps -qf "name=jenkins") sh
+$ docker exec -it  <container_id> sh
 ```
 
 2️⃣ **Retrieve the initial password:**
@@ -84,5 +84,5 @@ Stay tuned as I dive deeper into **CI/CD pipelines, automation, and DevOps magic
 
 ---
 
-📢 **Follow my DevOps & ML journey:** [GitHub Profile](https://github.com/yourusername)  
+📢 **Follow my DevOps & ML journey:** [GitHub Profile](https://github.com/mldev850)  
 Let’s build some cool stuff together! 🚀
